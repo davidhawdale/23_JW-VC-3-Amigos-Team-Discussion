@@ -2,6 +2,11 @@
 
 {Keep the whole document to five pages maximum (~2,500 words)}
 
+**Team:** {team name}
+**Date:** {date}
+**Members:** {team members}
+**Purpose:** {purpose}
+
 ## Executive Summary
 
 {Overall verdict in 2 short paragraphs. Lead with the consensus view. State the top 3 priorities. Use plain language a VC partner would scan in 30 seconds.}
