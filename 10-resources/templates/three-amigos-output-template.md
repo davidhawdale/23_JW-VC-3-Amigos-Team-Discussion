@@ -1,6 +1,6 @@
 # Three Amigos: VC Pitch Assessment
 
-{Keep the whole document to three pages maximum}
+{Keep the whole document to five pages maximum (~2,500 words)}
 
 ## Executive Summary
 

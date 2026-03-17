@@ -10,7 +10,7 @@ This workflow uses the **Claude Code Teams system** (`TeamCreate`, `SendMessage`
 
 | Output | Location |
 |--------|----------|
-| Final assessment | `05-outputs/vc-pitch-three-amigos-assessment.md` |
+| Final assessment | `05-outputs/assess-vc-pitch-by-three-amigos.md` |
 | Discussion transcript | `04-process/three-amigos-reviews/discussion-transcript.md` |
 
 ## Context
@@ -98,7 +98,7 @@ The output is complete when **all** of the following are true:
 1. Three independent specialist reviews exist (one each for Desirability, Feasibility, Viability)
 2. A discussion transcript exists capturing the full Phase 2 exchange between all three specialists
 3. The transcript contains genuine back-and-forth — not just three monologues
-4. Final synthesis document at `05-outputs/vc-pitch-three-amigos-assessment.md` follows the output template
+4. Final synthesis document at `05-outputs/assess-vc-pitch-by-three-amigos.md` follows the output template
 5. Final document is maximum 5 pages (~2,500 words)
 6. Written in bullet points and short sentences throughout — no walls of prose
 7. Cross-Cutting Tensions section identifies genuine disagreements between the three lenses

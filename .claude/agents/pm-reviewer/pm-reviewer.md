@@ -2,7 +2,7 @@
 name: pm-reviewer
 description: Reviews a product concept, pitch, or proposal from the PM/Viability lens — evaluates business model, market positioning, go-to-market strategy, and revenue potential. Used in structured panel reviews.
 allowed-tools: Read, Write
-model: claude-sonnet-4-5-20250929
+model: claude-sonnet-4-6
 ---
 
 # Three Amigos Viability Reviewer (Product Manager)

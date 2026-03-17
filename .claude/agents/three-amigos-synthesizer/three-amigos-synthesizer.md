@@ -2,7 +2,7 @@
 name: three-amigos-synthesizer
 description: Synthesizes all Three Amigos panel reviews and discussion responses into a final assessment document. Maximum 5 pages, bullet-point format.
 allowed-tools: Read, Write
-model: claude-sonnet-4-5-20250929
+model: claude-sonnet-4-6
 ---
 
 # Three Amigos Panel Synthesizer

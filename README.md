@@ -58,8 +58,9 @@ Each reviewer produces an independent review (Phase 1) and a discussion response
     │   ├── engineer-reviewer/
     │   ├── pm-reviewer/
     │   └── three-amigos-synthesizer/
-    └── skills/
-        └── run-workflow/      # /run-workflow skill
+    ├── skills/
+    │   └── run-workflow/      # /run-workflow skill
+    └── watch-agent.sh         # Stream agent output to terminal (requires jq)
 ```
 
 ## Running the Workflow
@@ -69,6 +70,30 @@ Each reviewer produces an independent review (Phase 1) and a discussion response
 ```
 
 This triggers the full five-phase pipeline. The skill reads the directive, executes each phase per the orchestration file, logs the result, and cleans up.
+
+### Watching agents work in real time
+
+When the orchestrator launches background agents, it will post watch commands to paste into your terminal. To see each agent's output live:
+
+**1. Split the VS Code terminal into panes**
+
+Open the VS Code terminal panel and press `Cmd+\` (Mac) or `Ctrl+Shift+5` (Windows/Linux) to split it. Repeat for as many agents as are running — typically 2–3 panes.
+
+**2. Paste the watch command into each pane**
+
+The orchestrator will give you a command per agent, like:
+
+```bash
+.claude/watch-agent.sh "Quality Reviewer" /private/tmp/claude-501/.../tasks/abc123.output
+```
+
+The script waits for the output file to appear, then streams the agent's thinking and tool calls in plain text as it works.
+
+**3. Watch side by side**
+
+Each pane shows one agent. You'll see their reasoning, which files they're reading, and their conclusions as they happen.
+
+The helper script lives at `.claude/watch-agent.sh`. It requires `jq` (`brew install jq` if not already installed).
 
 ### Prerequisites
 

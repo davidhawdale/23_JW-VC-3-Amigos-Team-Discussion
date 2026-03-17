@@ -2,7 +2,7 @@
 name: engineer-reviewer
 description: Reviews a product concept, pitch, or proposal from the Engineering/Feasibility lens — evaluates technical credibility, buildability, and implementation risks. Used in structured panel reviews.
 allowed-tools: Read, Write
-model: claude-sonnet-4-5-20250929
+model: claude-sonnet-4-6
 ---
 
 # Three Amigos Feasibility Reviewer (Engineer)
