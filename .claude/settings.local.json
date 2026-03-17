@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd:*)",
+      "Bash(git status:*)",
+      "Bash(git remote:*)",
+      "Bash(git push:*)",
+      "mcp__nimbalyst-session-naming__update_tags",
+      "Bash(ls:*)",
+      "Bash(file:*)",
+      "Bash(mdls:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
